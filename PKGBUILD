@@ -1,7 +1,7 @@
 # Maintainer: Ulrik Boll Djurtoft <201406850 at post dot au dot dk>
 pkgname=ttf-au
 pkgver=1.0
-pkgrel=1
+pkgrel=2
 pkgdesc="The official fonts for Aarhus University: AU Passata, AU Peto and AU Logo"
 arch=('any')
 url="http://medarbejdere.au.dk/en/administration/communication/design/msofficetemplates/downloadfonts/"
@@ -9,7 +9,7 @@ license=('custom')
 depends=('fontconfig' 'xorg-font-utils')
 source=('http://medarbejdere.au.dk/fileadmin/www.designmanual.au.dk/hent_filer/hent_skrifttyper/fonte.zip')
 noextract=()
-md5sums=('36b2114a3102b1db7511a39fd7322262')
+md5sums=('506dc390bf03f29404a5cf5f2a1c34ec')
 
 package()
 {
